@@ -67,42 +67,40 @@ const parseReleaseNotes = (notes: string, version: string, currentVersion: strin
 };
 
 export default function printChangeLog(cacheDir: string, pluginRootPath: string): void {
-  process.once('exit', () => {
+  try {
+    debug({ cacheDir, pluginRootPath });
+    const { name, version } = fs.readJsonSync(join(pluginRootPath, 'package.json')) as {
+      name: string;
+      version: string;
+    };
+    const changelogFile = fs.readFileSync(join(pluginRootPath, 'CHANGELOG.md'), 'utf8');
+    const versionDir = join(cacheDir, name);
+    const versionFile = join(versionDir, 'version');
+    fs.ensureFileSync(versionFile);
+    let latestVersion: { version: string };
     try {
-      debug({ cacheDir, pluginRootPath });
-      const { name, version } = fs.readJsonSync(join(pluginRootPath, 'package.json')) as {
-        name: string;
-        version: string;
-      };
-      const changelogFile = fs.readFileSync(join(pluginRootPath, 'CHANGELOG.md'), 'utf8');
-      const versionDir = join(cacheDir, name);
-      const versionFile = join(versionDir, 'version');
-      fs.ensureFileSync(versionFile);
-      let latestVersion: { version: string };
-      try {
-        latestVersion = fs.readJSONSync(versionFile) as { version: string };
-      } catch (error) {
-        latestVersion = { version: '0.0.0' };
-      }
-      debug({ latestVersion: latestVersion.version, version });
-      if (latestVersion.version !== version) {
-        const tokens = parseReleaseNotes(changelogFile, version, latestVersion.version);
-        if (!tokens.length) {
-          debug(`${name} - didn't find version '${version}'.`);
-        } else {
-          marked.setOptions({
-            renderer: new TerminalRenderer({ emoji: false }),
-          });
-          tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
-          // eslint-disable-next-line no-console
-          console.log(marked.parser(tokens));
-          fs.writeJsonSync(versionFile, { version });
-        }
-      } else {
-        debug(`${name} - no update`);
-      }
+      latestVersion = fs.readJSONSync(versionFile) as { version: string };
     } catch (error) {
-      debug(error);
+      latestVersion = { version: '0.0.0' };
     }
-  });
+    debug({ latestVersion: latestVersion.version, version });
+    if (latestVersion.version !== version) {
+      const tokens = parseReleaseNotes(changelogFile, version, latestVersion.version);
+      if (!tokens.length) {
+        debug(`${name} - didn't find version '${version}'.`);
+      } else {
+        marked.setOptions({
+          renderer: new TerminalRenderer({ emoji: false }),
+        });
+        tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
+        // eslint-disable-next-line no-console
+        console.log(marked.parser(tokens));
+        fs.writeJsonSync(versionFile, { version });
+      }
+    } else {
+      debug(`${name} - no update`);
+    }
+  } catch (error) {
+    debug(error);
+  }
 }
