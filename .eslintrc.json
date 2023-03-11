@@ -1,0 +1,39 @@
+/*
+ * Copyright (c) 2023, jayree
+ * All rights reserved.
+ * Licensed under the BSD 3-Clause license.
+ * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+ */
+
+{
+  "plugins": ["@typescript-eslint", "eslint-plugin-header"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "header/header": [
+      2,
+      "block",
+      [
+        "",
+        {
+          "pattern": " \\* Copyright \\(c\\) \\d{4}, jayree",
+          "template": " * Copyright (c) 2023, jayree"
+        },
+        " * All rights reserved.",
+        " * Licensed under the BSD 3-Clause license.",
+        " * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause",
+        " "
+      ]
+    ]
+  }
+}
