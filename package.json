@@ -1,0 +1,100 @@
+{
+  "name": "@jayree/changelog",
+  "version": "1.0.0",
+  "description": "Parses a CHANGELOG.md file of a package and returns the most recent entry",
+  "main": "lib/index.js",
+  "author": "jayree <jayree.git@icloud.com>",
+  "type": "module",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/debug": "^4.1.7",
+    "@types/fs-extra": "^11.0.1",
+    "@types/marked": "^4.0.8",
+    "@types/marked-terminal": "^3.1.3",
+    "@types/node": "^18.15.0",
+    "@types/semver": "^7.3.13",
+    "@types/semver-compare": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "commitlint": "^17.4.4",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-header": "^3.1.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.4",
+    "pretty-quick": "^3.1.3",
+    "typescript": "^4.9.5",
+    "wireit": "^0.9.5"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "fs-extra": "^11.1.0",
+    "marked": "^4.2.12",
+    "marked-terminal": "^5.1.1",
+    "semver": "^7.3.8",
+    "semver-compare": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "/lib"
+  ],
+  "homepage": "https://github.com/jayree/jayree-changelog",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "repository": "jayree/jayree-changelog",
+  "scripts": {
+    "build": "wireit",
+    "compile": "wireit",
+    "format": "wireit",
+    "lint": "wireit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "wireit": {
+    "build": {
+      "dependencies": [
+        "compile",
+        "lint"
+      ]
+    },
+    "compile": {
+      "command": "tsc --build --pretty",
+      "files": [
+        "src/**/*.ts",
+        "tsconfig.json"
+      ],
+      "output": [
+        "lib/**",
+        "*.tsbuildinfo"
+      ],
+      "clean": "if-file-deleted"
+    },
+    "format": {
+      "command": "prettier --write \"+(src|test|schemas)/**/*.+(ts|js|json)\"",
+      "files": [
+        "src/**/*.ts",
+        ".prettier*"
+      ],
+      "output": []
+    },
+    "lint": {
+      "command": "eslint --color --cache --cache-location .eslintcache .",
+      "files": [
+        "src/**/*.ts",
+        ".eslint*"
+      ],
+      "output": []
+    }
+  }
+}
