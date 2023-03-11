@@ -1,7 +1,7 @@
 {
   "name": "@jayree/changelog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parses a CHANGELOG.md file of a package and returns the most recent entry",
   "main": "lib/index.js",
   "author": "jayree <jayree.git@icloud.com>",
   "type": "module",
@@ -42,14 +42,10 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/jayree/sfdx-plugin-prettier",
-  "keywords": [
-    "sfdx-plugin",
-    "prettier",
-    "hook"
-  ],
+  "homepage": "https://github.com/jayree/jayree-changelog",
+  "keywords": [],
   "license": "BSD-3-Clause",
-  "repository": "jayree/sfdx-plugin-prettier",
+  "repository": "jayree/jayree-changelog",
   "scripts": {
     "build": "wireit",
     "compile": "wireit",

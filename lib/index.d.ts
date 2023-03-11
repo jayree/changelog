@@ -1,1 +1,1 @@
-export default function printChangeLog(cacheDir: string, pluginRootPath: string): void;
+export default function printChangeLog(cacheDir: string, pluginRootPath: string): string | undefined;

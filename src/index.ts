@@ -15,7 +15,7 @@ import compare from 'semver-compare';
 const debug = Debug(`jayree:changelog`);
 
 // original from https://github.com/salesforcecli/plugin-info/blob/main/src/shared/parseReleaseNotes.ts
-const parseReleaseNotes = (notes: string, version: string, currentVersion: string): marked.Token[] => {
+const parseChangeLog = (notes: string, version: string, currentVersion: string): marked.Token[] => {
   let found = false;
   let versions: string[] = [];
 
@@ -66,7 +66,7 @@ const parseReleaseNotes = (notes: string, version: string, currentVersion: strin
   return tokens;
 };
 
-export default function printChangeLog(cacheDir: string, pluginRootPath: string): void {
+export default function printChangeLog(cacheDir: string, pluginRootPath: string): string | undefined {
   try {
     debug({ cacheDir, pluginRootPath });
     const { name, version } = fs.readJsonSync(join(pluginRootPath, 'package.json')) as {
@@ -85,7 +85,7 @@ export default function printChangeLog(cacheDir: string, pluginRootPath: string)
     }
     debug({ latestVersion: latestVersion.version, version });
     if (latestVersion.version !== version) {
-      const tokens = parseReleaseNotes(changelogFile, version, latestVersion.version);
+      const tokens = parseChangeLog(changelogFile, version, latestVersion.version);
       if (!tokens.length) {
         debug(`${name} - didn't find version '${version}'.`);
       } else {
@@ -93,9 +93,8 @@ export default function printChangeLog(cacheDir: string, pluginRootPath: string)
           renderer: new TerminalRenderer({ emoji: false }),
         });
         tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
-        // eslint-disable-next-line no-console
-        console.log(marked.parser(tokens));
         fs.writeJsonSync(versionFile, { version });
+        return marked.parser(tokens);
       }
     } else {
       debug(`${name} - no update`);
