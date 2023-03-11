@@ -1,6 +1,8 @@
 @jayree/changelog
 ===========================================
 
+Parses a CHANGELOG.md file of a package and returns the most recent entry.
+
 ## Install
 
 ```bash
@@ -17,5 +19,8 @@ import printChangeLog from '@jayree/changelog';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-printChangeLog(this.config.cacheDir, join(__dirname, '..', '..'));
+const pathToChangeLog = join(__dirname, '..', '..');
+const cacheDir = this.config.cacheDir;
+
+console.log(printChangeLog(cacheDir, pathToChangeLog));
 ```
