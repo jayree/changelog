@@ -1,0 +1,25 @@
+// Generated - Do not modify. Controlled by @salesforce/dev-scripts
+// See more at https://github.com/forcedotcom/sfdx-dev-packages/tree/master/packages/dev-scripts
+
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "lib",
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "sourceMap": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["./src/**/*.ts"]
+}
