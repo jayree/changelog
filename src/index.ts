@@ -15,7 +15,11 @@ import compare from 'semver-compare';
 const debug = Debug(`jayree:changelog`);
 
 // original from https://github.com/salesforcecli/plugin-info/blob/main/src/shared/parseReleaseNotes.ts
-const parseChangeLog = (notes: string, version: string, currentVersion: string): marked.Token[] => {
+const parseChangeLog = (
+  notes: string,
+  version: string,
+  currentVersion: string
+): { tokens: marked.Token[]; version: string } => {
   let found = false;
   let versions: string[] = [];
 
@@ -23,7 +27,7 @@ const parseChangeLog = (notes: string, version: string, currentVersion: string):
 
   let tokens: marked.Token[] = [];
 
-  const findVersion = (desiredVersion: string, localVersion: string): void => {
+  const findVersion = (desiredVersion: string, localVersion?: string): void => {
     versions = [];
 
     tokens = parsed.filter((token) => {
@@ -35,7 +39,12 @@ const parseChangeLog = (notes: string, version: string, currentVersion: string):
           // We will use this to find the closest patch if passed version is not found
           versions.push(coercedVersion);
 
-          if (compare(desiredVersion, coercedVersion) >= 0 && compare(coercedVersion, localVersion) === 1) {
+          if (
+            (!localVersion && compare(desiredVersion, coercedVersion) === 0) ||
+            (localVersion &&
+              compare(desiredVersion, coercedVersion) >= 0 &&
+              compare(coercedVersion, localVersion) === 1)
+          ) {
             found = true;
 
             return token;
@@ -56,48 +65,48 @@ const parseChangeLog = (notes: string, version: string, currentVersion: string):
 
     const closestVersion = semver.maxSatisfying<string>(versions, semverRange);
 
-    const warning = marked.lexer(
-      `# ATTENTION: Version ${version} was not found. Showing notes for closest patch version ${closestVersion}.`
-    )[0];
+    if (closestVersion !== null) {
+      findVersion(closestVersion, currentVersion);
 
-    tokens.unshift(warning);
+      if (!tokens.length) findVersion(closestVersion);
+
+      const warning = marked.lexer(
+        `# ATTENTION: Version ${version} was not found. Showing notes for closest patch version ${closestVersion}.`
+      )[0];
+
+      tokens.unshift(warning);
+      version = closestVersion;
+    }
   }
 
-  return tokens;
+  return { tokens, version };
 };
 
-export default function printChangeLog(cacheDir: string, pluginRootPath: string): string | undefined {
+export default async function printChangeLog(cacheDir: string, pluginRootPath: string): Promise<string | undefined> {
   try {
-    debug({ cacheDir, pluginRootPath });
-    const { name, version } = fs.readJsonSync(join(pluginRootPath, 'package.json')) as {
+    const { name, version } = (await fs.readJson(join(pluginRootPath, 'package.json'))) as {
       name: string;
       version: string;
     };
-    const changelogFile = fs.readFileSync(join(pluginRootPath, 'CHANGELOG.md'), 'utf8');
+    const changelogFile = await fs.readFile(join(pluginRootPath, 'CHANGELOG.md'), 'utf8');
     const versionDir = join(cacheDir, name);
     const versionFile = join(versionDir, 'version');
-    fs.ensureFileSync(versionFile);
-    let latestVersion: { version: string };
+    await fs.ensureFile(versionFile);
+    let localVersion: { version: string };
     try {
-      latestVersion = fs.readJSONSync(versionFile) as { version: string };
+      localVersion = (await fs.readJSON(versionFile)) as { version: string };
     } catch (error) {
-      latestVersion = { version: '0.0.0' };
+      localVersion = { version: '0.0.0' };
     }
-    debug({ latestVersion: latestVersion.version, version });
-    if (latestVersion.version !== version) {
-      const tokens = parseChangeLog(changelogFile, version, latestVersion.version);
-      if (!tokens.length) {
-        debug(`${name} - didn't find version '${version}'.`);
-      } else {
-        marked.setOptions({
-          renderer: new TerminalRenderer({ emoji: false }),
-        });
-        tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
-        fs.writeJsonSync(versionFile, { version });
-        return marked.parser(tokens);
-      }
-    } else {
-      debug(`${name} - no update`);
+    debug({ pluginRootPath, cacheDir, localVersion: localVersion.version, version });
+    if (localVersion.version !== version) {
+      const { tokens, version: parsedVersion } = parseChangeLog(changelogFile, version, localVersion.version);
+      marked.setOptions({
+        renderer: new TerminalRenderer({ emoji: false }),
+      });
+      tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
+      await fs.writeJson(versionFile, { version: parsedVersion });
+      return marked.parser(tokens);
     }
   } catch (error) {
     debug(error);
