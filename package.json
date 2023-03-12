@@ -1,6 +1,6 @@
 {
   "name": "@jayree/changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a CHANGELOG.md file of a package and return the most recent entry",
   "main": "lib/index.js",
   "author": "jayree <jayree.git@icloud.com>",
@@ -42,10 +42,10 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/jayree/jayree-changelog",
+  "homepage": "https://github.com/jayree/changelog",
   "keywords": [],
   "license": "BSD-3-Clause",
-  "repository": "jayree/jayree-changelog",
+  "repository": "jayree/changelog",
   "scripts": {
     "build": "wireit",
     "compile": "wireit",
