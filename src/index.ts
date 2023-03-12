@@ -12,8 +12,6 @@ import { marked } from 'marked';
 import semver from 'semver';
 import compare from 'semver-compare';
 
-const debug = Debug(`jayree:changelog`);
-
 // original from https://github.com/salesforcecli/plugin-info/blob/main/src/shared/parseReleaseNotes.ts
 const parseChangeLog = (
   notes: string,
@@ -82,7 +80,13 @@ const parseChangeLog = (
   return { tokens, version };
 };
 
-export default async function printChangeLog(cacheDir: string, pluginRootPath: string): Promise<string | undefined> {
+export default async function printChangeLog(
+  cacheDir: string,
+  pluginRootPath: string,
+  debug?: Debug.Debugger
+): Promise<string | undefined> {
+  if (!debug) debug = Debug(`jayree:changelog`);
+
   try {
     const { name, version } = (await fs.readJson(join(pluginRootPath, 'package.json'))) as {
       name: string;
