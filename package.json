@@ -1,7 +1,7 @@
 {
   "name": "@jayree/changelog",
   "version": "1.0.0",
-  "description": "Parses a CHANGELOG.md file of a package and returns the most recent entry",
+  "description": "Parse a CHANGELOG.md file of a package and return the most recent entry",
   "main": "lib/index.js",
   "author": "jayree <jayree.git@icloud.com>",
   "type": "module",

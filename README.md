@@ -1,7 +1,7 @@
 @jayree/changelog
 ===========================================
 
-Parses a CHANGELOG.md file of a package and returns the most recent entry.
+Parse a CHANGELOG.md file of a package and return the most recent entry.
 
 ## Install
 
