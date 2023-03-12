@@ -42,10 +42,10 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/jayree/jayree-changelog",
+  "homepage": "https://github.com/jayree/changelog",
   "keywords": [],
   "license": "BSD-3-Clause",
-  "repository": "jayree/jayree-changelog",
+  "repository": "jayree/changelog",
   "scripts": {
     "build": "wireit",
     "compile": "wireit",
