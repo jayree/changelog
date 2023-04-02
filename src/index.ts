@@ -29,12 +29,10 @@ const parseChangeLog = (
     versions = [];
 
     tokens = parsed.filter((token) => {
-      // TODO: Could make header depth (2) a setting in oclif.info.releasenotes
       if (token.type === 'heading' && token.depth <= 2) {
         const coercedVersion = semver.coerce(token.text)?.version;
 
         if (coercedVersion) {
-          // We will use this to find the closest patch if passed version is not found
           versions.push(coercedVersion);
 
           if (
