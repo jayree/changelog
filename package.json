@@ -6,7 +6,7 @@
   "author": "jayree <jayree.git@icloud.com>",
   "type": "module",
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/config-conventional": "^17.6.1",
     "@types/debug": "^4.1.7",
     "@types/fs-extra": "^11.0.1",
     "@types/marked": "^4.0.8",
