@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/jayree/changelog/compare/v1.1.1...v1.1.2) (2023-05-23)
+
+
+### Bug Fixes
+
+* **deps:** bump marked-terminal from 5.1.1 to 5.2.0 ([#57](https://github.com/jayree/changelog/issues/57)) ([0a69e97](https://github.com/jayree/changelog/commit/0a69e9728549951f13a7e63d40b23132aa39e443))
+
 ## [1.1.1](https://github.com/jayree/changelog/compare/v1.1.0...v1.1.1) (2023-04-24)
 
 
