@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/jayree/changelog/compare/v1.1.2...v1.1.3) (2023-06-09)
+
+
+### Bug Fixes
+
+* add tests ([634bd53](https://github.com/jayree/changelog/commit/634bd530d7bee8d94717a3e8a1e4d19a463caada))
+* **deps:** bump marked and @types/marked ([#77](https://github.com/jayree/changelog/issues/77)) ([8e1fce9](https://github.com/jayree/changelog/commit/8e1fce9d31d92de0f42ddffe0b63cace2cb0beef))
+
 ## [1.1.2](https://github.com/jayree/changelog/compare/v1.1.1...v1.1.2) (2023-05-23)
 
 
