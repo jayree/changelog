@@ -1,0 +1,5 @@
+{
+  "exclude-scripts": ["test:command-reference"],
+  "exclude-files": ["LICENSE.txt", ".eslintrc.js", "test/.eslintrc.js"],
+  "strict": true
+}
