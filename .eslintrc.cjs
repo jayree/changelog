@@ -9,10 +9,11 @@
 // See more at https://github.com/forcedotcom/sfdx-dev-packages/tree/master/packages/dev-scripts
 
 module.exports = {
-  extends: ['eslint-config-salesforce-typescript', 'plugin:prettier/recommended'],
+  extends: ['eslint-config-salesforce-typescript', 'plugin:sf-plugin/migration', 'plugin:prettier/recommended'],
   plugins: ['eslint-plugin-header'],
   ignorePatterns: ['**/*.d.ts', '**/*.cjs'],
   rules: {
+    'sf-plugin/no-missing-messages': 'off',
     'header/header': [
       2,
       'block',
