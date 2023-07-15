@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.4](https://github.com/jayree/changelog/compare/v1.1.3...v1.1.4) (2023-07-15)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 5.0.5 to 5.1.0 ([#84](https://github.com/jayree/changelog/issues/84)) ([5234b8a](https://github.com/jayree/changelog/commit/5234b8a971b6d8068902d2c238046ec56ca2ff70))
+* **deps:** bump marked from 5.1.0 to 5.1.1 ([#107](https://github.com/jayree/changelog/issues/107)) ([ff5f857](https://github.com/jayree/changelog/commit/ff5f85791ee54ffb9d347b4fd82ae584d4db7f04))
+* **deps:** bump semver from 7.5.1 to 7.5.2 ([#85](https://github.com/jayree/changelog/issues/85)) ([b9f7aba](https://github.com/jayree/changelog/commit/b9f7aba71b1800e5164880c7cf01db30d377495e))
+* **deps:** bump semver from 7.5.2 to 7.5.3 ([#91](https://github.com/jayree/changelog/issues/91)) ([1c733ee](https://github.com/jayree/changelog/commit/1c733eec6d26f1eb3c80b7b0557aa8f9345de5b2))
+* **deps:** bump semver from 7.5.3 to 7.5.4 ([#106](https://github.com/jayree/changelog/issues/106)) ([d992f2c](https://github.com/jayree/changelog/commit/d992f2ced73e51571a0dc1c87a67b4e96d8d1494))
+
 ## [1.1.3](https://github.com/jayree/changelog/compare/v1.1.2...v1.1.3) (2023-06-09)
 
 
