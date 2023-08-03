@@ -6,7 +6,7 @@
   "author": "jayree <jayree.git@icloud.com>",
   "type": "module",
   "devDependencies": {
-    "@salesforce/dev-scripts": "^5.4.2",
+    "@salesforce/dev-scripts": "^5.4.3",
     "@salesforce/prettier-config": "^0.0.3",
     "@types/debug": "^4.1.8",
     "@types/fs-extra": "^11.0.1",
