@@ -12,7 +12,7 @@ import { marked } from 'marked';
 const parseChangeLog = (
   notes: string,
   version: string,
-  currentVersion: string
+  currentVersion: string,
 ): { tokens: marked.Token[]; version: string } => {
   let found = false;
   let versions: string[] = [];
@@ -63,7 +63,7 @@ const parseChangeLog = (
       if (!tokens.length) findVersion(closestVersion);
 
       const warning = marked.lexer(
-        `# ATTENTION: Version ${version} was not found. Showing notes for closest patch version ${closestVersion}.`
+        `# ATTENTION: Version ${version} was not found. Showing notes for closest patch version ${closestVersion}.`,
       )[0];
 
       tokens.unshift(warning);

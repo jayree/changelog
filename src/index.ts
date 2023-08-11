@@ -14,7 +14,7 @@ import { parseChangeLog } from './shared/parseChangeLog.js';
 export default async function printChangeLog(
   cacheDir: string,
   pluginRootPath: string,
-  debug?: Debug.Debugger
+  debug?: Debug.Debugger,
 ): Promise<string | undefined> {
   if (!debug) debug = Debug(`jayree:changelog`);
 
