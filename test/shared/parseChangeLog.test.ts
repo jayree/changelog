@@ -118,7 +118,7 @@ describe('parseReleaseNotes tests', () => {
     expect(tokens.tokens[0].raw).to.include('63.18.0'); // version asked for
     expect(tokens.tokens[0].raw).to.include('63.18.2'); // version found
     expect(results).to.include(
-      'ATTENTION: Version 63.18.0 was not found. Showing notes for closest patch version 63.18.2.'
+      'ATTENTION: Version 63.18.0 was not found. Showing notes for closest patch version 63.18.2.',
     );
   });
 });
