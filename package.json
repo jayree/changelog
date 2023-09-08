@@ -17,8 +17,8 @@
     "@types/semver": "^7.5.1",
     "@types/semver-compare": "^1.0.1",
     "@types/sinon-chai": "^3.2.9",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "c8": "^8.0.1",
     "chai": "^4.3.8",
     "commitlint": "^17.7.1",
@@ -39,10 +39,10 @@
     "sinon-chai": "^3.7.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.1",
-    "typedoc": "0.25.0",
+    "typedoc": "0.25.1",
     "typedoc-plugin-missing-exports": "2.1.0",
     "typescript": "^5.2.2",
-    "wireit": "^0.11.0"
+    "wireit": "^0.13.0"
   },
   "dependencies": {
     "debug": "^4.3.4",
