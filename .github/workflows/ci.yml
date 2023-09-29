@@ -20,3 +20,4 @@ jobs:
           node-version: 'lts/*'
       - run: yarn
       - run: yarn build
+      - run: yarn test
