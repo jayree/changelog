@@ -1,6 +1,6 @@
-import { marked } from 'marked';
+import { Token } from 'marked';
 declare const parseChangeLog: (notes: string, version: string, currentVersion: string) => {
-    tokens: marked.Token[];
+    tokens: Token[];
     version: string;
 };
 export { parseChangeLog };

@@ -7,26 +7,26 @@
 // original from https://github.com/salesforcecli/plugin-info/blob/main/src/shared/parseReleaseNotes.ts
 import semver from 'semver';
 import compare from 'semver-compare';
-import { marked } from 'marked';
+import { marked, Token } from 'marked';
 
 const parseChangeLog = (
   notes: string,
   version: string,
   currentVersion: string,
-): { tokens: marked.Token[]; version: string } => {
+): { tokens: Token[]; version: string } => {
   let found = false;
   let versions: string[] = [];
 
   const parsed = marked.lexer(notes);
 
-  let tokens: marked.Token[] = [];
+  let tokens: Token[] = [];
 
   const findVersion = (desiredVersion: string, localVersion?: string): void => {
     versions = [];
 
     tokens = parsed.filter((token) => {
       if (token.type === 'heading' && token.depth <= 2) {
-        const coercedVersion = semver.coerce(token.text)?.version;
+        const coercedVersion = semver.coerce(token.text as string)?.version;
 
         if (coercedVersion) {
           versions.push(coercedVersion);
