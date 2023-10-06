@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/jayree/changelog/compare/v1.1.6...v1.1.7) (2023-10-05)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 5.1.2 to 9.1.0 ([#179](https://github.com/jayree/changelog/issues/179)) ([7d6cef1](https://github.com/jayree/changelog/commit/7d6cef139c85ce6a64a62597b32a6a3e6792e8e9))
+
 ## [1.1.6](https://github.com/jayree/changelog/compare/v1.1.5...v1.1.6) (2023-09-29)
 
 
