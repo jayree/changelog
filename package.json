@@ -12,7 +12,7 @@
     "@types/debug": "^4.1.10",
     "@types/fs-extra": "^11.0.2",
     "@types/marked": "^5.0.0",
-    "@types/marked-terminal": "^3.1.6",
+    "@types/marked-terminal": "^3.1.7",
     "@types/mocha": "^10.0.2",
     "@types/semver": "^7.5.3",
     "@types/semver-compare": "^1.0.2",
