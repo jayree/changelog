@@ -452,10 +452,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/marked-terminal@^3.1.6":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@types/marked-terminal/-/marked-terminal-3.1.6.tgz#bef8039e19d6c10af25e3e676faf52257dada608"
-  integrity sha512-ksPTvACYNQH2Sv6Bt9BVpzHSiJDzrzYYf4zt1lgjTs5KvqrW6PIW4CFbVk/9x+tmTSaymnDLNlB42IHnY/4Tzw==
+"@types/marked-terminal@^3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@types/marked-terminal/-/marked-terminal-3.1.7.tgz#50b0a2a5cf3612fdddaaea6f4eec3e9d96813411"
+  integrity sha512-bKbVK9E6ADmxDsSQAQmEA9NToAfsCTC7TeCiZ5Nl1BCi/IbJqlzSfRTdYrq0PxWL3Lb+dxhWVbHwF9l48neOsA==
   dependencies:
     chalk "^2.4.1"
     marked "^6.0.0"
