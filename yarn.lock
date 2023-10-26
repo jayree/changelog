@@ -460,10 +460,12 @@
     chalk "^2.4.1"
     marked "^6.0.0"
 
-"@types/marked@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-5.0.0.tgz#3235b9133054e6586eedabfb77aa7d4a4bafbfcf"
-  integrity sha512-YcZe50jhltsCq7rc9MNZC/4QB/OnA2Pd6hrOSTOFajtabN+38slqgDDCeE/0F83SjkKBQcsZUj7VLWR0H5cKRA==
+"@types/marked@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-6.0.0.tgz#4dbc7df4add578ef87eb6ca2c6927c97b0531abf"
+  integrity sha512-jmjpa4BwUsmhxcfsgUit/7A9KbrC48Q0q8KvnY107ogcjGgTFDlIL3RpihNpx2Mu1hM4mdFQjoVc4O6JoGKHsA==
+  dependencies:
+    marked "*"
 
 "@types/minimatch@^3.0.3":
   version "3.0.5"
@@ -2615,6 +2617,11 @@ marked-terminal@^6.0.0:
     node-emoji "^2.1.0"
     supports-hyperlinks "^3.0.0"
 
+marked@*, marked@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-9.1.2.tgz#a54ca772d2b5a43de7d8ed40111354b4b7985527"
+  integrity sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==
+
 marked@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.3.0.tgz#796362821b019f734054582038b116481b456cf3"
@@ -2624,11 +2631,6 @@ marked@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/marked/-/marked-6.0.0.tgz#80cd7f51145437cffe9f541a318b9882f75601df"
   integrity sha512-7E3m/xIlymrFL5gWswIT4CheIE3fDeh51NV09M4x8iOc7NDYlyERcQMLAIHcSlrvwliwbPQ4OGD+MpPSYiQcqw==
-
-marked@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-9.1.2.tgz#a54ca772d2b5a43de7d8ed40111354b4b7985527"
-  integrity sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==
 
 meow@^8.0.0, meow@^8.1.2:
   version "8.1.2"
