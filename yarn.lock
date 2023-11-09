@@ -514,10 +514,10 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
-"@types/semver-compare@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@types/semver-compare/-/semver-compare-1.0.2.tgz#7147fc38adb3709af1901b26e13bf6fea2506a08"
-  integrity sha512-9qyAejfgFEnY9MKw1SvFJ4YbDhB23qXlIBEWpz7E5bngaAlwd9G9vLBt0fY1U3KmpoV7I5km+bKGYBJ/Xyudhg==
+"@types/semver-compare@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/semver-compare/-/semver-compare-1.0.3.tgz#b6220a83a06a0faad68445fcfbf448ee61ac5be3"
+  integrity sha512-mVZkB2QjXmZhh+MrtwMlJ8BqUnmbiSkpd88uOWskfwB8yitBT0tBRAKt+41VRgZD9zr9Sc+Xs02qGgvzd1Rq/Q==
 
 "@types/semver@^7.5.0", "@types/semver@^7.5.4":
   version "7.5.4"
