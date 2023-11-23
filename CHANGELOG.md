@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.8](https://github.com/jayree/changelog/compare/v1.1.7...v1.1.8) (2023-11-23)
+
+
+### Bug Fixes
+
+* **deps:** bump marked and marked-terminal ([#245](https://github.com/jayree/changelog/issues/245)) ([7a95019](https://github.com/jayree/changelog/commit/7a95019c6d168c490c9206599b689a4152a5ca9a))
+* **deps:** bump marked from 9.1.0 to 9.1.1 ([#185](https://github.com/jayree/changelog/issues/185)) ([ffad74a](https://github.com/jayree/changelog/commit/ffad74a7149d32fcb150a653f4a168d70ae213d3))
+* **deps:** bump marked from 9.1.1 to 9.1.2 ([#199](https://github.com/jayree/changelog/issues/199)) ([ce9ce42](https://github.com/jayree/changelog/commit/ce9ce42462c937a7ead34f5cfacb0bdbeae33f86))
+* **deps:** bump marked from 9.1.2 to 9.1.5 ([#219](https://github.com/jayree/changelog/issues/219)) ([638a956](https://github.com/jayree/changelog/commit/638a956885856383fc81b1c5d7d3a0e263167d21))
+* **deps:** bump marked from 9.1.5 to 9.1.6 ([#233](https://github.com/jayree/changelog/issues/233)) ([996e0d9](https://github.com/jayree/changelog/commit/996e0d98e285c2dcf4725abc5286922530e183a3))
+
 ## [1.1.7](https://github.com/jayree/changelog/compare/v1.1.6...v1.1.7) (2023-10-05)
 
 
