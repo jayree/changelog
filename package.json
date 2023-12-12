@@ -47,8 +47,8 @@
   "dependencies": {
     "debug": "^4.3.4",
     "fs-extra": "^11.2.0",
-    "marked": "^10.0.0",
-    "marked-terminal": "^6.1.0",
+    "marked": "^11.1.0",
+    "marked-terminal": "^6.2.0",
     "semver": "^7.5.4",
     "semver-compare": "^1.0.0"
   },
