@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/jayree/changelog/compare/v1.1.8...v1.1.9) (2023-12-04)
+
+
+### Bug Fixes
+
+* **deps:** bump fs-extra from 11.1.1 to 11.2.0 ([#250](https://github.com/jayree/changelog/issues/250)) ([8e43d10](https://github.com/jayree/changelog/commit/8e43d1044640f8758850d5abe793223513fc9c93))
+
 ## [1.1.8](https://github.com/jayree/changelog/compare/v1.1.7...v1.1.8) (2023-11-23)
 
 
