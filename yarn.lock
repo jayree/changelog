@@ -532,7 +532,7 @@
   resolved "https://registry.yarnpkg.com/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.2.tgz#bf2e02a3dbd4aecaf95942ecd99b7402e03fad5e"
   integrity sha512-9GcLXF0/v3t80caGs5p2rRfkB+a8VBGLJZVih6CNFkx8IZ994wiKKLSRs9nuFwk1HevWs/1mnUmkApGrSGsShA==
 
-"@typescript-eslint/eslint-plugin@^6.19.1", "@typescript-eslint/eslint-plugin@^6.20.0":
+"@typescript-eslint/eslint-plugin@^6.20.0":
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.20.0.tgz#9cf31546d2d5e884602626d89b0e0d2168ac25ed"
   integrity sha512-fTwGQUnjhoYHeSF6m5pWNkzmDDdsKELYrOBxhjMrofPqCkoC2k3B2wvGHFxa1CTIqkEn88nlW1HVMztjo2K8Hg==
@@ -549,7 +549,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@^6.19.1", "@typescript-eslint/parser@^6.20.0":
+"@typescript-eslint/parser@^6.20.0":
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-6.20.0.tgz#17e314177304bdf498527e3c4b112e41287b7416"
   integrity sha512-bYerPDF/H5v6V76MdMYhjwmwgMA+jlPVqjSDq2cRqMi8bP5sR3Z+RLOiOMad3nsnmDVmn2gAFCyNgh/dIrfP/w==
@@ -1405,13 +1405,13 @@ eslint-config-salesforce-license@^0.2.0:
   resolved "https://registry.yarnpkg.com/eslint-config-salesforce-license/-/eslint-config-salesforce-license-0.2.0.tgz#323193f1aa15dd33fbf108d25fc1210afc11065e"
   integrity sha512-DJdBvgj82Erum82YMe+YvG/o6ukna3UA++lRl0HSTldj0VlBl3Q8hzCp97nRXZHra6JH1I912yievZzklXDw6w==
 
-eslint-config-salesforce-typescript@^3.2.7:
-  version "3.2.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-salesforce-typescript/-/eslint-config-salesforce-typescript-3.2.7.tgz#2afc8147b70591d2526f07142a331da170902f35"
-  integrity sha512-Li0LjqR+h4HS0riL7WQRxiEPxspO09n4h5FT9sB3MAbzjetZ9x+wBrmaOFFDPTMeT4MbTU/catJvpXMYC2zDNw==
+eslint-config-salesforce-typescript@^3.2.9:
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-salesforce-typescript/-/eslint-config-salesforce-typescript-3.2.9.tgz#640abca44edead09cad81d8a4d25b2ae7cd958d6"
+  integrity sha512-7c0PYfSsaCOyUIULZ+nQZVKfo4/qYqXHbIg4RCDXuNXnw4P4xbEFxyl9CYJUivGCiJRRXH0MbKFOGpKP+BKgnA==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^6.19.1"
-    "@typescript-eslint/parser" "^6.19.1"
+    "@typescript-eslint/eslint-plugin" "^6.20.0"
+    "@typescript-eslint/parser" "^6.20.0"
     eslint "^8.56.0"
     eslint-config-prettier "^9.1.0"
     eslint-config-salesforce "^2.0.2"
