@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.10](https://github.com/jayree/changelog/compare/v1.1.9...v1.1.10) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 11.1.0 to 11.1.1 ([#281](https://github.com/jayree/changelog/issues/281)) ([470e5a4](https://github.com/jayree/changelog/commit/470e5a4436ec5f4d4785a461dc3273333ceb00d4))
+* **deps:** bump marked from 11.1.1 to 11.2.0 ([#312](https://github.com/jayree/changelog/issues/312)) ([d39813f](https://github.com/jayree/changelog/commit/d39813f0d024617e4e3bbb49203d4f39a86e9918))
+* **deps:** bump marked from 11.2.0 to 12.0.0 ([#337](https://github.com/jayree/changelog/issues/337)) ([310f3b3](https://github.com/jayree/changelog/commit/310f3b3a9bad537511d8c106aa9ab970a7c1c0c3))
+* **deps:** bump marked-terminal from 6.2.0 to 7.0.0 ([#325](https://github.com/jayree/changelog/issues/325)) ([4abb2c4](https://github.com/jayree/changelog/commit/4abb2c4e3b054c50f41503cbad22b370f09ed8e2))
+
 ## [1.1.9](https://github.com/jayree/changelog/compare/v1.1.8...v1.1.9) (2023-12-04)
 
 
