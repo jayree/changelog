@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.11](https://github.com/jayree/changelog/compare/v1.1.10...v1.1.11) (2024-04-08)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 12.0.0 to 12.0.1 ([#347](https://github.com/jayree/changelog/issues/347)) ([28ba7cb](https://github.com/jayree/changelog/commit/28ba7cbdfae26590e289b12e73f65d624cc198de))
+
 ## [1.1.10](https://github.com/jayree/changelog/compare/v1.1.9...v1.1.10) (2024-02-27)
 
 
