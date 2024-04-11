@@ -1481,10 +1481,10 @@ eslint-config-salesforce-typescript@^3.2.11:
     eslint-plugin-jsdoc "^46.10.1"
     eslint-plugin-unicorn "^50.0.1"
 
-eslint-config-salesforce@^2.0.2, eslint-config-salesforce@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-salesforce/-/eslint-config-salesforce-2.1.0.tgz#4910e20cbf89f90c8c6bbd9a9ca949e89cbcf597"
-  integrity sha512-SAXd4jGG4rMjpD5anP7/3+EnxmNUKfSyfeHQkpsCBre876Va9oXnaAjiQL2jVozfrV1eWRyDxgOl+2GAfx9l7A==
+eslint-config-salesforce@^2.0.2, eslint-config-salesforce@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-salesforce/-/eslint-config-salesforce-2.2.0.tgz#04b6cf07dcbaabc32fc9edb0915860497db55c30"
+  integrity sha512-0zUEFJ2nNpMvVO3MgKEDUTGtaFZjL3xEIErr5h+BOft+OhGoIvZBNPnBBu12lvv29ylqIAQz5SwoVCCUzBhyPQ==
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
