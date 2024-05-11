@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.12](https://github.com/jayree/changelog/compare/v1.1.11...v1.1.12) (2024-05-11)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 12.0.1 to 12.0.2 ([#370](https://github.com/jayree/changelog/issues/370)) ([19ac50a](https://github.com/jayree/changelog/commit/19ac50a06584045202f3e204498b1b873a8dea3d))
+* **deps:** bump semver from 7.6.0 to 7.6.2 ([#371](https://github.com/jayree/changelog/issues/371)) ([daf4582](https://github.com/jayree/changelog/commit/daf4582df230488fa20c02f5eca7219d7abb4487))
+
 ## [1.1.11](https://github.com/jayree/changelog/compare/v1.1.10...v1.1.11) (2024-04-08)
 
 
