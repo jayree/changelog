@@ -45,7 +45,7 @@
     "wireit": "^0.14.4"
   },
   "dependencies": {
-    "debug": "^4.3.4",
+    "debug": "^4.3.5",
     "fs-extra": "^11.2.0",
     "marked": "^12.0.2",
     "marked-terminal": "^7.0.0",
