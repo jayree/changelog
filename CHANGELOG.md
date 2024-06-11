@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/jayree/changelog/compare/v1.1.12...v1.2.0) (2024-06-11)
+
+
+### Features
+
+* support Logger and Debug ([ceca209](https://github.com/jayree/changelog/commit/ceca209268a265f6bc142bc422a804266f0c03f9))
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 4.3.4 to 4.3.5 ([#382](https://github.com/jayree/changelog/issues/382)) ([8a265fa](https://github.com/jayree/changelog/commit/8a265fa427718b990784832632c216d81d8a0c1c))
+
 ## [1.1.12](https://github.com/jayree/changelog/compare/v1.1.11...v1.1.12) (2024-05-11)
 
 
