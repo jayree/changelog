@@ -1,2 +1,3 @@
 import Debug from 'debug';
-export default function printChangeLog(cacheDir: string, pluginRootPath: string, debug?: Debug.Debugger): Promise<string | undefined>;
+import type { Logger } from '@salesforce/core';
+export default function printChangeLog(cacheDir: string, pluginRootPath: string, loggerOrDebug?: Logger | Debug.Debugger): Promise<string | undefined>;

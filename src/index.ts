@@ -9,14 +9,32 @@ import fs from 'fs-extra';
 import Debug from 'debug';
 import TerminalRenderer from 'marked-terminal';
 import { marked, Renderer } from 'marked';
+import type { Logger } from '@salesforce/core';
 import { parseChangeLog } from './shared/parseChangeLog.js';
 
 export default async function printChangeLog(
   cacheDir: string,
   pluginRootPath: string,
-  debug?: Debug.Debugger,
+  loggerOrDebug?: Logger | Debug.Debugger,
 ): Promise<string | undefined> {
-  if (!debug) debug = Debug(`jayree:changelog`);
+  let logger: Logger | { debug: (txt: unknown) => void };
+
+  if (isLogger(loggerOrDebug)) {
+    logger = loggerOrDebug;
+  } else if (isDebugDebugger(loggerOrDebug)) {
+    logger = {
+      debug(txt: unknown): void {
+        loggerOrDebug(txt);
+      },
+    };
+  } else {
+    const debug = Debug(`jayree:changelog`);
+    logger = {
+      debug(txt: unknown): void {
+        debug(txt);
+      },
+    };
+  }
 
   try {
     const { name, version } = (await fs.readJson(join(pluginRootPath, 'package.json'))) as {
@@ -33,7 +51,7 @@ export default async function printChangeLog(
     } catch (error) {
       localVersion = { version: '0.0.0' };
     }
-    debug({ pluginRootPath, cacheDir, localVersion: localVersion.version, version });
+    logger.debug({ pluginRootPath, cacheDir, localVersion: localVersion.version, version });
     if (localVersion.version !== version) {
       const { tokens, version: parsedVersion } = parseChangeLog(changelogFile, version, localVersion.version);
       marked.setOptions({
@@ -44,6 +62,14 @@ export default async function printChangeLog(
       return marked.parser(tokens);
     }
   } catch (error) {
-    debug(error);
+    logger.debug(error);
   }
+}
+
+function isLogger(obj: Logger | Debug.Debugger | undefined): obj is Logger {
+  return (obj && 'debug' in obj && typeof obj.debug === 'function') ?? false;
+}
+
+function isDebugDebugger(obj: Logger | Debug.Debugger | undefined): obj is Debug.Debugger {
+  return typeof obj === 'function' && 'namespace' in obj;
 }
