@@ -7,7 +7,7 @@
   "type": "module",
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
-    "@salesforce/core": "^7.4.0",
+    "@salesforce/core": "^8.0.2",
     "@salesforce/dev-config": "^4.1.0",
     "@salesforce/prettier-config": "^0.0.3",
     "@types/debug": "^4.1.12",
@@ -48,7 +48,7 @@
     "debug": "^4.3.5",
     "fs-extra": "^11.2.0",
     "marked": "^12.0.2",
-    "marked-terminal": "^7.0.0",
+    "marked-terminal": "^7.1.0",
     "semver": "^7.6.2",
     "semver-compare": "^1.0.0"
   },
