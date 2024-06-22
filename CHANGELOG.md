@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/jayree/changelog/compare/v1.2.0...v1.2.1) (2024-06-22)
+
+
+### Bug Fixes
+
+* **deps:** bump marked-terminal from 7.0.0 to 7.1.0 ([#393](https://github.com/jayree/changelog/issues/393)) ([bca5f76](https://github.com/jayree/changelog/commit/bca5f767f9607b6fe763eddf8e130db2153bf415))
+
 ## [1.2.0](https://github.com/jayree/changelog/compare/v1.1.12...v1.2.0) (2024-06-11)
 
 
