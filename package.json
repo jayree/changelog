@@ -8,7 +8,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
     "@salesforce/core": "^8.2.3",
-    "@salesforce/dev-config": "^4.2.0",
+    "@salesforce/dev-config": "^4.3.1",
     "@salesforce/prettier-config": "^0.0.3",
     "@types/debug": "^4.1.12",
     "@types/fs-extra": "^11.0.4",
