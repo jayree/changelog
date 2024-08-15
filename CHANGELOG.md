@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.2](https://github.com/jayree/changelog/compare/v1.2.1...v1.2.2) (2024-08-15)
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 4.3.5 to 4.3.6 ([#428](https://github.com/jayree/changelog/issues/428)) ([6b85f55](https://github.com/jayree/changelog/commit/6b85f55312d330cf6ec90100fa96e6b5cc12957a))
+* **deps:** bump semver from 7.6.2 to 7.6.3 ([#418](https://github.com/jayree/changelog/issues/418)) ([2baaf9a](https://github.com/jayree/changelog/commit/2baaf9a78638824967753ed454c62bbbd6a708ea))
+
 ## [1.2.1](https://github.com/jayree/changelog/compare/v1.2.0...v1.2.1) (2024-06-22)
 
 
