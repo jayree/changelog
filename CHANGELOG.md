@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/jayree/changelog/compare/v1.2.2...v1.2.3) (2024-08-29)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 12.0.2 to 13.0.3 ([#432](https://github.com/jayree/changelog/issues/432)) ([19c8dc8](https://github.com/jayree/changelog/commit/19c8dc8e50d6dcdf09d147ac82a389345c56c0e1))
+
 ## [1.2.2](https://github.com/jayree/changelog/compare/v1.2.1...v1.2.2) (2024-08-15)
 
 
