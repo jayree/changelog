@@ -55,7 +55,7 @@ export default async function printChangeLog(
     if (localVersion.version !== version) {
       const { tokens, version: parsedVersion } = parseChangeLog(changelogFile, version, localVersion.version);
       marked.setOptions({
-        renderer: new TerminalRenderer({ emoji: false }) as Renderer,
+        renderer: new TerminalRenderer({ emoji: false }) as unknown as Renderer,
       });
       tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
       await fs.writeJson(versionFile, { version: parsedVersion });
