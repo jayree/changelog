@@ -40,7 +40,7 @@ describe('parseReleaseNotes tests', () => {
   it('calls lexer with raw release notes', () => {
     parseChangeLog(notes, '7.121.8', '7.120.0');
 
-    // eslint-disable-next-line no-unused-expressions
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     expect(lexerSpy.called).to.be.true;
     expect(lexerSpy.args[0][0]).to.deep.equal(notes);
   });

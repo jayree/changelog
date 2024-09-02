@@ -48,7 +48,7 @@ export default async function printChangeLog(
     let localVersion: { version: string };
     try {
       localVersion = (await fs.readJSON(versionFile)) as { version: string };
-    } catch (error) {
+    } catch {
       localVersion = { version: '0.0.0' };
     }
     logger.debug({ pluginRootPath, cacheDir, localVersion: localVersion.version, version });

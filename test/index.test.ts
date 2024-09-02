@@ -66,6 +66,7 @@ describe('printChangeLog', () => {
     readJsonVersionStub.withArgs(`${cacheDir}/${pluginName}/version`).resolves({ version: pluginVersion });
 
     const result = await printChangeLog(cacheDir, pluginRootPath);
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     expect(result).to.be.undefined;
   });
 
@@ -73,6 +74,7 @@ describe('printChangeLog', () => {
     readJsonPackageStub.withArgs(`${pluginRootPath}/package.json`).throws(new Error('File not found'));
 
     const result = await printChangeLog(cacheDir, pluginRootPath);
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     expect(result).to.be.undefined;
   });
 });
