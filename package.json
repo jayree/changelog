@@ -35,7 +35,7 @@
     "mocha": "^10.7.3",
     "prettier": "^3.3.3",
     "pretty-quick": "^4.0.0",
-    "sinon": "18.0.1",
+    "sinon": "19.0.2",
     "sinon-chai": "^4.0.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
