@@ -5079,10 +5079,10 @@ typed-array-length@^1.0.6:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
 
-typedoc-plugin-missing-exports@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/typedoc-plugin-missing-exports/-/typedoc-plugin-missing-exports-3.0.2.tgz#e12a2460b4b7064ed543c6f9b040ececd54382be"
-  integrity sha512-c1fS9h4MBOgf6OMN1fPHvMjWvR1f9npaGT6YA5ZWjqo28yJpoX1rtS4BonP0Nosk0RIBV/Ra6WGL6dyi1RM0fw==
+typedoc-plugin-missing-exports@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/typedoc-plugin-missing-exports/-/typedoc-plugin-missing-exports-3.1.0.tgz#cab4952c19cae1ab3f91cbbf2d7d17564682b023"
+  integrity sha512-Sogbaj+qDa21NjB3SlIw4JXSwmcl/WOjwiPNaVEcPhpNG/MiRTtpwV81cT7h1cbu9StpONFPbddYWR0KV/fTWA==
 
 typedoc@0.26.11:
   version "0.26.11"
