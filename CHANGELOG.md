@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.5](https://github.com/jayree/changelog/compare/v1.2.4...v1.2.5) (2025-01-02)
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 4.3.6 to 4.3.7 ([#458](https://github.com/jayree/changelog/issues/458)) ([c0d27e4](https://github.com/jayree/changelog/commit/c0d27e4ff59530d7e7ddb1cda35e7e7f32bd9bcf))
+* **deps:** bump debug from 4.3.7 to 4.4.0 ([#534](https://github.com/jayree/changelog/issues/534)) ([fd17a5b](https://github.com/jayree/changelog/commit/fd17a5b0babd86a959155bddd0598314c6dd6fb8))
+
 ## [1.2.4](https://github.com/jayree/changelog/compare/v1.2.3...v1.2.4) (2024-09-02)
 
 
