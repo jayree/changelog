@@ -42,7 +42,7 @@
     "typedoc": "0.27.6",
     "typedoc-plugin-missing-exports": "3.1.0",
     "typescript": "^5.5.4",
-    "wireit": "^0.14.9"
+    "wireit": "^0.14.10"
   },
   "dependencies": {
     "debug": "^4.4.0",
