@@ -107,6 +107,8 @@ describe('parseReleaseNotes tests', () => {
     const results = JSON.stringify(tokens, null, '  ');
 
     expect(tokens.tokens[1].raw).to.include('63.18.2'); // 63.18.1 exists in fixtures/notes
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-member-access
+    expect((tokens.tokens[2] as any).items[0].tokens[0].tokens[1].type).to.be.equal('link');
     expect(results).to.include('- testing multiple minors (higher)');
   });
 

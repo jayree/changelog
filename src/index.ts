@@ -7,8 +7,8 @@
 import { join } from 'node:path';
 import fs from 'fs-extra';
 import Debug from 'debug';
-import TerminalRenderer from 'marked-terminal';
-import { marked, Renderer } from 'marked';
+import { markedTerminal } from 'marked-terminal';
+import { marked, MarkedExtension } from 'marked';
 import type { Logger } from '@salesforce/core';
 import { parseChangeLog } from './shared/parseChangeLog.js';
 
@@ -54,9 +54,7 @@ export default async function printChangeLog(
     logger.debug({ pluginRootPath, cacheDir, localVersion: localVersion.version, version });
     if (localVersion.version !== version) {
       const { tokens, version: parsedVersion } = parseChangeLog(changelogFile, version, localVersion.version);
-      marked.setOptions({
-        renderer: new TerminalRenderer({ emoji: false }) as unknown as Renderer,
-      });
+      marked.use(markedTerminal({ emoji: false }) as unknown as MarkedExtension);
       tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
       await fs.writeJson(versionFile, { version: parsedVersion });
       return marked.parser(tokens);

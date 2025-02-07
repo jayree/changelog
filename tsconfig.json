@@ -2,17 +2,11 @@
 // See more at https://github.com/forcedotcom/sfdx-dev-packages/tree/master/packages/dev-scripts
 
 {
-  "extends": "@salesforce/dev-config/tsconfig-strict",
+  "extends": "@salesforce/dev-config/tsconfig-strict-esm",
   "compilerOptions": {
     "outDir": "lib",
     "incremental": true,
-    "module": "node16",
-    "moduleResolution": "node16",
-    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true
-  },
-  "ts-node": {
-    "esm": true
   },
   "include": ["./src/**/*.ts"]
 }
