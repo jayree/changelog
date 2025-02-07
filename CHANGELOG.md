@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.5](https://github.com/jayree/changelog/compare/v1.2.4...v1.2.5) (2025-02-07)
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 4.3.6 to 4.3.7 ([#458](https://github.com/jayree/changelog/issues/458)) ([c0d27e4](https://github.com/jayree/changelog/commit/c0d27e4ff59530d7e7ddb1cda35e7e7f32bd9bcf))
+* **deps:** bump debug from 4.3.7 to 4.4.0 ([#534](https://github.com/jayree/changelog/issues/534)) ([fd17a5b](https://github.com/jayree/changelog/commit/fd17a5b0babd86a959155bddd0598314c6dd6fb8))
+* **deps:** bump fs-extra from 11.2.0 to 11.3.0 ([#551](https://github.com/jayree/changelog/issues/551)) ([79ee0ac](https://github.com/jayree/changelog/commit/79ee0acb9288a8b719a6b16bd0056902b4db253a))
+* **deps:** bump marked-terminal from 6.3.0 to 7.3.0 ([#561](https://github.com/jayree/changelog/issues/561)) ([35e20ec](https://github.com/jayree/changelog/commit/35e20ecc5b77286224d20ef49d3c5967a2f12fcf))
+* **deps:** bump semver from 7.6.3 to 7.7.0 ([#566](https://github.com/jayree/changelog/issues/566)) ([86e1999](https://github.com/jayree/changelog/commit/86e199952d0042aa30abcc2799b0a1e481aca566))
+* **deps:** bump semver from 7.7.0 to 7.7.1 ([#570](https://github.com/jayree/changelog/issues/570)) ([00bb1d8](https://github.com/jayree/changelog/commit/00bb1d8c72502a044b7f48ab7dcb8167bbbd79b1))
+
 ## [1.2.4](https://github.com/jayree/changelog/compare/v1.2.3...v1.2.4) (2024-09-02)
 
 
