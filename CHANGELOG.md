@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/jayree/changelog/compare/v1.2.6...v1.2.7) (2025-03-27)
+
+
+### Bug Fixes
+
+* revert marked, marked-terminal ([4a2990d](https://github.com/jayree/changelog/commit/4a2990d81418becd6ae8d4212150ed53de68254e))
+
 ## [1.2.6](https://github.com/jayree/changelog/compare/v1.2.5...v1.2.6) (2025-02-16)
 
 
