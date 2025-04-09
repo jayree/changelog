@@ -7,9 +7,9 @@
 import { join } from 'node:path';
 import fs from 'fs-extra';
 import Debug from 'debug';
-import { markedTerminal } from 'marked-terminal';
 import { marked, MarkedExtension } from 'marked';
 import type { Logger } from '@salesforce/core';
+import { markedTerminal } from '../local/marked-terminal.js';
 import { parseChangeLog } from './shared/parseChangeLog.js';
 
 export default async function printChangeLog(
