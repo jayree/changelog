@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.8](https://github.com/jayree/changelog/compare/v1.2.7...v1.2.8) (2025-04-09)
+
+
+### Bug Fixes
+
+* use local marked-terminal ([117bc13](https://github.com/jayree/changelog/commit/117bc13dbb7ba2c695a5caa10a9c99f7c0e20524))
+
 ## [1.2.7](https://github.com/jayree/changelog/compare/v1.2.6...v1.2.7) (2025-03-27)
 
 
