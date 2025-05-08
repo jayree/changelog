@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.9](https://github.com/jayree/changelog/compare/v1.2.8...v1.2.9) (2025-05-08)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 15.0.10 to 15.0.11 ([#649](https://github.com/jayree/changelog/issues/649)) ([102d5d8](https://github.com/jayree/changelog/commit/102d5d845a4c18124dff1d64d4288127322b3956))
+* **deps:** bump marked from 15.0.8 to 15.0.10 ([#642](https://github.com/jayree/changelog/issues/642)) ([448d17e](https://github.com/jayree/changelog/commit/448d17ecbe2eba4b407a6ebff291c44dd1dd01c2))
+
 ## [1.2.8](https://github.com/jayree/changelog/compare/v1.2.7...v1.2.8) (2025-04-09)
 
 
