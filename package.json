@@ -32,7 +32,7 @@
     "eslint-plugin-jsdoc": "^50.6.17",
     "eslint-plugin-prettier": "^5.4.0",
     "husky": "^9.1.7",
-    "mocha": "^11.2.2",
+    "mocha": "^11.4.0",
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
     "sinon": "20.0.0",
