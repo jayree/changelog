@@ -34,7 +34,7 @@
     "husky": "^9.1.7",
     "mocha": "^11.5.0",
     "prettier": "^3.5.3",
-    "pretty-quick": "^4.1.1",
+    "pretty-quick": "^4.2.2",
     "sinon": "20.0.0",
     "sinon-chai": "^4.0.0",
     "source-map-support": "^0.5.21",
