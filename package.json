@@ -24,7 +24,7 @@
     "chai": "^5.2.1",
     "commitlint": "^19.8.1",
     "eslint": "^8.57.1",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-config-salesforce": "^2.2.0",
     "eslint-config-salesforce-typescript": "^3.4.0",
     "eslint-plugin-header": "^3.1.1",
