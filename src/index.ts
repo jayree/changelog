@@ -57,7 +57,7 @@ export default async function printChangeLog(
       marked.use(markedTerminal({ emoji: false }) as unknown as MarkedExtension);
       tokens.unshift(marked.lexer(`# Changelog for '${name}':`)[0]);
       await fs.writeJson(versionFile, { version: parsedVersion });
-      return marked.parser(tokens);
+      return await marked.parser(tokens);
     }
   } catch (error) {
     logger.debug(error);
