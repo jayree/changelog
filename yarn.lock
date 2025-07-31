@@ -5497,10 +5497,10 @@ typedoc-plugin-missing-exports@4.0.0:
   resolved "https://registry.yarnpkg.com/typedoc-plugin-missing-exports/-/typedoc-plugin-missing-exports-4.0.0.tgz#01916ce83173cb2e7b2942edfbe484f3bfbb0c8c"
   integrity sha512-Z4ei+853xppDEhcqzyeyRs4+R0kUuKQWnMK1EtSTEd5LFkgkdW5Bdn8vfo/rsCGbYVJxOWU99fxgM1mROw5Fug==
 
-typedoc@0.28.7:
-  version "0.28.7"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.28.7.tgz#30453a9517b49e53f06e08954ef3dd106381447d"
-  integrity sha512-lpz0Oxl6aidFkmS90VQDQjk/Qf2iw0IUvFqirdONBdj7jPSN9mGXhy66BcGNDxx5ZMyKKiBVAREvPEzT6Uxipw==
+typedoc@0.28.8:
+  version "0.28.8"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.28.8.tgz#3f2de31e8b2233bab12fb40d25ff861a4fac0962"
+  integrity sha512-16GfLopc8icHfdvqZDqdGBoS2AieIRP2rpf9mU+MgN+gGLyEQvAO0QgOa6NJ5QNmQi0LFrDY9in4F2fUNKgJKA==
   dependencies:
     "@gerrit0/mini-shiki" "^3.7.0"
     lunr "^2.3.9"
