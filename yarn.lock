@@ -5379,10 +5379,10 @@ signal-exit@^4.0.1:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-sinon-chai@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/sinon-chai/-/sinon-chai-4.0.0.tgz#77d59d9f4a833f0d3a88249b4637acc72656fdfa"
-  integrity sha512-cWqO7O2I4XfJDWyWElAQ9D/dtdh5Mo0RHndsfiiYyjWnlPzBJdIvjCVURO4EjyYaC3BjV+ISNXCfTXPXTEIEWA==
+sinon-chai@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/sinon-chai/-/sinon-chai-4.0.1.tgz#f70000fe0e4f4ab7ceeb3703d3053f8886e0386b"
+  integrity sha512-xMKEEV3cYHC1G+boyr7QEqi80gHznYsxVdC9CdjP5JnCWz/jPGuXQzJz3PtBcb0CcHAxar15Y5sjLBoAs6a0yA==
 
 sinon@21.0.0:
   version "21.0.0"
