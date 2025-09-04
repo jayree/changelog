@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.16](https://github.com/jayree/changelog/compare/v1.2.15...v1.2.16) (2025-09-04)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 16.2.0 to 16.2.1 ([#758](https://github.com/jayree/changelog/issues/758)) ([0ac48f0](https://github.com/jayree/changelog/commit/0ac48f0115066a8617c132becf7a69df4b725b1a))
+
 ## [1.2.15](https://github.com/jayree/changelog/compare/v1.2.14...v1.2.15) (2025-08-21)
 
 
