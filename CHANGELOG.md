@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.18](https://github.com/jayree/changelog/compare/v1.2.17...v1.2.18) (2025-09-22)
+
+
+### Bug Fixes
+
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#794](https://github.com/jayree/changelog/issues/794)) ([6a3f1ad](https://github.com/jayree/changelog/commit/6a3f1ad6b2b22f4252063d2a019e17d852077f34))
+
 ## [1.2.17](https://github.com/jayree/changelog/compare/v1.2.16...v1.2.17) (2025-09-22)
 
 
