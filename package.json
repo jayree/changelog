@@ -51,7 +51,7 @@
     "fs-extra": "^11.3.2",
     "marked": "^16.3.0",
     "marked-terminal": "^7.3.0",
-    "semver": "^7.7.2",
+    "semver": "^7.7.3",
     "semver-compare": "^1.0.0"
   },
   "engines": {
