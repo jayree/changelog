@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsdoc": "^61.1.11",
     "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-unicorn": "56.0.1",
+    "eslint-plugin-unicorn": "62.0.0",
     "husky": "^9.1.7",
     "mocha": "^11.7.4",
     "patch-package": "^8.0.1",
