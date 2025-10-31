@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.19](https://github.com/jayree/changelog/compare/v1.2.18...v1.2.19) (2025-10-31)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 16.3.0 to 16.4.0 ([#814](https://github.com/jayree/changelog/issues/814)) ([43600ee](https://github.com/jayree/changelog/commit/43600ee43cd1ae6a8efd380a87999ebfebce19af))
+* **deps:** bump marked from 16.4.0 to 16.4.1 ([#824](https://github.com/jayree/changelog/issues/824)) ([4628b2c](https://github.com/jayree/changelog/commit/4628b2c0d75a3132d24ff5f11e85e1d86154ceaa))
+
 ## [1.2.18](https://github.com/jayree/changelog/compare/v1.2.17...v1.2.18) (2025-09-22)
 
 
