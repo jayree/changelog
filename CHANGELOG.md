@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.20](https://github.com/jayree/changelog/compare/v1.2.19...v1.2.20) (2025-11-15)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#841](https://github.com/jayree/changelog/issues/841)) ([696db4c](https://github.com/jayree/changelog/commit/696db4cc7062a2a1c332775710ba8b7eb9932591))
+* **deps:** bump marked from 16.4.1 to 17.0.0 ([#839](https://github.com/jayree/changelog/issues/839)) ([0190356](https://github.com/jayree/changelog/commit/019035667b93ae8fba5e44b3f51b9f3044690e8d))
+
 ## [1.2.19](https://github.com/jayree/changelog/compare/v1.2.18...v1.2.19) (2025-10-31)
 
 
