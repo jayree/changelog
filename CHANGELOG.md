@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.22](https://github.com/jayree/changelog/compare/v1.2.21...v1.2.22) (2025-12-04)
+
+
+### Bug Fixes
+
+* **deps:** bump jws from 3.2.2 to 3.2.3 ([#855](https://github.com/jayree/changelog/issues/855)) ([f5326e5](https://github.com/jayree/changelog/commit/f5326e51b0bb22b26d5407bdbdf17d1d914b4e40))
+
 ## [1.2.21](https://github.com/jayree/changelog/compare/v1.2.20...v1.2.21) (2025-11-27)
 
 
