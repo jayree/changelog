@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.23](https://github.com/jayree/changelog/compare/v1.2.22...v1.2.23) (2025-12-25)
+
+
+### Bug Fixes
+
+* **deps:** bump fs-extra from 11.3.2 to 11.3.3 ([#868](https://github.com/jayree/changelog/issues/868)) ([adece49](https://github.com/jayree/changelog/commit/adece49d85964c1d2a0279e04556ef7f59ea9840))
+
 ## [1.2.22](https://github.com/jayree/changelog/compare/v1.2.21...v1.2.22) (2025-12-04)
 
 
