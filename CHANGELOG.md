@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.24](https://github.com/jayree/changelog/compare/v1.2.23...v1.2.24) (2026-02-12)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 17.0.1 to 17.0.2 ([#898](https://github.com/jayree/changelog/issues/898)) ([b3f1a55](https://github.com/jayree/changelog/commit/b3f1a55734d74cbc19623839c4d964b133c993d7))
+* **deps:** bump semver from 7.7.3 to 7.7.4 ([#896](https://github.com/jayree/changelog/issues/896)) ([9151921](https://github.com/jayree/changelog/commit/9151921bd5234b2e520e02d6739c9197f53d569b))
+
 ## [1.2.23](https://github.com/jayree/changelog/compare/v1.2.22...v1.2.23) (2025-12-25)
 
 
