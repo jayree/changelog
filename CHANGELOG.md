@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.26](https://github.com/jayree/changelog/compare/v1.2.25...v1.2.26) (2026-03-05)
+
+
+### Bug Fixes
+
+* **deps:** bump fs-extra from 11.3.3 to 11.3.4 ([#920](https://github.com/jayree/changelog/issues/920)) ([a541c08](https://github.com/jayree/changelog/commit/a541c088cadeb43916bf5af052dc044e5e6f32f9))
+* **deps:** bump marked from 17.0.3 to 17.0.4 ([#919](https://github.com/jayree/changelog/issues/919)) ([56f07d1](https://github.com/jayree/changelog/commit/56f07d1cbb2541dfa9034e7cc488f91bc063be42))
+
 ## [1.2.25](https://github.com/jayree/changelog/compare/v1.2.24...v1.2.25) (2026-02-19)
 
 
