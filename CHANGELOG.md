@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.27](https://github.com/jayree/changelog/compare/v1.2.26...v1.2.27) (2026-03-19)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.2.7 to 3.4.2 ([#933](https://github.com/jayree/changelog/issues/933)) ([f4828d4](https://github.com/jayree/changelog/commit/f4828d44fc98d9fd6a7f3e887ebbd9389cef449a))
+
 ## [1.2.26](https://github.com/jayree/changelog/compare/v1.2.25...v1.2.26) (2026-03-05)
 
 
