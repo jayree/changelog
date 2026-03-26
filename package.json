@@ -19,7 +19,7 @@
     "@types/semver-compare": "^1.0.3",
     "@types/sinon-chai": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^8.57.0",
-    "@typescript-eslint/parser": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.2",
     "c8": "^11.0.0",
     "chai": "^6.2.2",
     "commitlint": "^20.5.0",
