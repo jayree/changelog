@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.28](https://github.com/jayree/changelog/compare/v1.2.27...v1.2.28) (2026-03-26)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 17.0.4 to 17.0.5 ([#941](https://github.com/jayree/changelog/issues/941)) ([dd27147](https://github.com/jayree/changelog/commit/dd2714721b3e05cd4aa061fa0ca73165a9eb500d))
+
 ## [1.2.27](https://github.com/jayree/changelog/compare/v1.2.26...v1.2.27) (2026-03-19)
 
 
