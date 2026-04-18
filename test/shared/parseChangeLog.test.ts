@@ -7,6 +7,7 @@
 // original from https://github.com/salesforcecli/plugin-info/blob/main/test/shared/parseReleaseNotes.test.ts
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { afterEach, beforeEach, describe, it } from 'mocha';
 import fs from 'fs-extra';
 import { expect, use as chaiUse } from 'chai';
 import Sinon from 'sinon';
