@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.32](https://github.com/jayree/changelog/compare/v1.2.31...v1.2.32) (2026-05-08)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-uri from 3.0.1 to 3.1.2 ([#978](https://github.com/jayree/changelog/issues/978)) ([57e02d7](https://github.com/jayree/changelog/commit/57e02d76f6d73733c1669fd5f9b2bdce0d206d84))
+* **deps:** bump fs-extra from 11.3.4 to 11.3.5 ([#975](https://github.com/jayree/changelog/issues/975)) ([ecf4114](https://github.com/jayree/changelog/commit/ecf4114bd390f0d1c87e47298df19c05ce656a99))
+
 ## [1.2.31](https://github.com/jayree/changelog/compare/v1.2.30...v1.2.31) (2026-05-02)
 
 
