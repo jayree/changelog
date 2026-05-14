@@ -22,7 +22,7 @@
     "@typescript-eslint/parser": "^8.59.2",
     "c8": "^11.0.0",
     "chai": "^6.2.2",
-    "commitlint": "^20.5.3",
+    "commitlint": "^21.0.1",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-salesforce": "^2.2.1",
