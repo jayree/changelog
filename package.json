@@ -7,7 +7,7 @@
   "type": "module",
   "devDependencies": {
     "@commitlint/config-conventional": "^21.0.2",
-    "@salesforce/core": "^8.31.1",
+    "@salesforce/core": "^8.31.2",
     "@salesforce/dev-config": "^4.3.3",
     "@salesforce/prettier-config": "^0.0.4",
     "@types/debug": "^4.1.13",
