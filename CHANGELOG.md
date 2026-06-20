@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.36](https://github.com/jayree/changelog/compare/v1.2.35...v1.2.36) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump form-data from 4.0.5 to 4.0.6 ([#1014](https://github.com/jayree/changelog/issues/1014)) ([cc8b794](https://github.com/jayree/changelog/commit/cc8b79480cabc715b8691fa60e9981e16b3798a4))
+* **deps:** bump js-yaml from 4.1.1 to 4.2.0 ([#1013](https://github.com/jayree/changelog/issues/1013)) ([b006f92](https://github.com/jayree/changelog/commit/b006f929af87ca95d259b4c80d7e2006731b6613))
+* **deps:** bump markdown-it from 14.1.1 to 14.2.0 ([#1011](https://github.com/jayree/changelog/issues/1011)) ([29a1f59](https://github.com/jayree/changelog/commit/29a1f59e1b682c4cd2788605c425599af91ea308))
+
 ## [1.2.35](https://github.com/jayree/changelog/compare/v1.2.34...v1.2.35) (2026-06-11)
 
 
