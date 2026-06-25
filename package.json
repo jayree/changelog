@@ -6,7 +6,7 @@
   "author": "jayree <jayree.git@icloud.com>",
   "type": "module",
   "devDependencies": {
-    "@commitlint/config-conventional": "^21.0.2",
+    "@commitlint/config-conventional": "^21.1.0",
     "@salesforce/core": "^8.31.2",
     "@salesforce/dev-config": "^4.3.3",
     "@salesforce/prettier-config": "^0.0.4",
