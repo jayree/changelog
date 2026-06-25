@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.37](https://github.com/jayree/changelog/compare/v1.2.36...v1.2.37) (2026-06-25)
+
+
+### Bug Fixes
+
+* **deps:** bump semver from 7.8.4 to 7.8.5 ([#1020](https://github.com/jayree/changelog/issues/1020)) ([6ae9a6d](https://github.com/jayree/changelog/commit/6ae9a6d71408e030b2390292702b4313c3dd14cc))
+
 ## [1.2.36](https://github.com/jayree/changelog/compare/v1.2.35...v1.2.36) (2026-06-20)
 
 
