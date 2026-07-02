@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.38](https://github.com/jayree/changelog/compare/v1.2.37...v1.2.38) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump fs-extra from 11.3.5 to 11.3.6 ([#1028](https://github.com/jayree/changelog/issues/1028)) ([1e343d4](https://github.com/jayree/changelog/commit/1e343d4e183762ead619ff72cb4b419705c27b15))
+
 ## [1.2.37](https://github.com/jayree/changelog/compare/v1.2.36...v1.2.37) (2026-06-25)
 
 
