@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.39](https://github.com/jayree/changelog/compare/v1.2.38...v1.2.39) (2026-07-16)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 18.0.5 to 18.0.6 ([#1050](https://github.com/jayree/changelog/issues/1050)) ([895f917](https://github.com/jayree/changelog/commit/895f917db37af006a86eacd2e04395379d49c36f))
+* **deps:** bump websocket-driver from 0.7.4 to 0.7.5 ([#1044](https://github.com/jayree/changelog/issues/1044)) ([27bf1e4](https://github.com/jayree/changelog/commit/27bf1e4b80cdcbec6a312aedd2dfe90821651963))
+
 ## [1.2.38](https://github.com/jayree/changelog/compare/v1.2.37...v1.2.38) (2026-07-02)
 
 
