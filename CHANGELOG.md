@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.40](https://github.com/jayree/changelog/compare/v1.2.39...v1.2.40) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-uri from 3.1.2 to 3.1.4 ([#1060](https://github.com/jayree/changelog/issues/1060)) ([cce360a](https://github.com/jayree/changelog/commit/cce360affa5605f3176d3d11e8303c091ad6267e))
+* **deps:** bump fs-extra from 11.3.6 to 11.4.0 ([#1064](https://github.com/jayree/changelog/issues/1064)) ([309c9b1](https://github.com/jayree/changelog/commit/309c9b1010886fce8d311182c50c96ae36046e6b))
+* **deps:** bump js-yaml from 4.2.0 to 4.3.0 ([#1061](https://github.com/jayree/changelog/issues/1061)) ([ca5cb73](https://github.com/jayree/changelog/commit/ca5cb73cc87d891ef37db69d624dd9bd76755c6f))
+* **deps:** bump marked from 18.0.6 to 18.0.7 ([#1053](https://github.com/jayree/changelog/issues/1053)) ([ee75d88](https://github.com/jayree/changelog/commit/ee75d883ecc417c546d28f31694516b0fd330442))
+
 ## [1.2.39](https://github.com/jayree/changelog/compare/v1.2.38...v1.2.39) (2026-07-16)
 
 
