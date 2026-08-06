@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.41](https://github.com/jayree/changelog/compare/v1.2.40...v1.2.41) (2026-08-06)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-uri from 3.1.4 to 3.1.5 ([#1069](https://github.com/jayree/changelog/issues/1069)) ([6d0df4d](https://github.com/jayree/changelog/commit/6d0df4db7a08c8493ebb71978e08a433f67d099f))
+* **deps:** bump undici from 8.5.0 to 8.10.0 ([#1067](https://github.com/jayree/changelog/issues/1067)) ([621fd6b](https://github.com/jayree/changelog/commit/621fd6b73fbd567339447482205b55257b8f4a7f))
+
 ## [1.2.40](https://github.com/jayree/changelog/compare/v1.2.39...v1.2.40) (2026-07-24)
 
 
