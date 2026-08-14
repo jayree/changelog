@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.42](https://github.com/jayree/changelog/compare/v1.2.41...v1.2.42) (2026-08-13)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.3.0 to 4.3.1 ([#1074](https://github.com/jayree/changelog/issues/1074)) ([e8fd997](https://github.com/jayree/changelog/commit/e8fd99700e49987adec8d15587980a519a0e0508))
+* **deps:** bump marked from 18.0.7 to 18.0.9 ([#1077](https://github.com/jayree/changelog/issues/1077)) ([f657d00](https://github.com/jayree/changelog/commit/f657d00d52d5015b93f469f9e28c564edd6f405e))
+
 ## [1.2.41](https://github.com/jayree/changelog/compare/v1.2.40...v1.2.41) (2026-08-06)
 
 
