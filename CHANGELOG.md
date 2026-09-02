@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.43](https://github.com/jayree/changelog/compare/v1.2.42...v1.2.43) (2026-09-02)
+
+
+### Bug Fixes
+
+* **deps:** bump @humanfs/node from 0.16.6 to 0.16.8 ([#1087](https://github.com/jayree/changelog/issues/1087)) ([6dfaa16](https://github.com/jayree/changelog/commit/6dfaa16dcab15e860bde1254f136da24894f4249))
+* **deps:** bump fast-uri from 3.1.5 to 3.1.7 ([#1089](https://github.com/jayree/changelog/issues/1089)) ([ef4ae3a](https://github.com/jayree/changelog/commit/ef4ae3ab4eec37f2c7d75c4b7780a92d1435be23))
+
 ## [1.2.42](https://github.com/jayree/changelog/compare/v1.2.41...v1.2.42) (2026-08-13)
 
 
