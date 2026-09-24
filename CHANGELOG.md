@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.46](https://github.com/jayree/changelog/compare/v1.2.45...v1.2.46) (2026-09-24)
+
+
+### Bug Fixes
+
+* **deps:** bump brace-expansion from 5.0.6 to 5.0.12 ([#1111](https://github.com/jayree/changelog/issues/1111)) ([633f7d4](https://github.com/jayree/changelog/commit/633f7d45decb286843b77c3ccae99fcb4b83e0a5))
+
 ## [1.2.45](https://github.com/jayree/changelog/compare/v1.2.44...v1.2.45) (2026-09-17)
 
 
