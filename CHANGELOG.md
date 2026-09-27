@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.40](https://github.com/jayree/changelog/compare/v1.2.39...v1.2.40) (2026-09-27)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.28.2 to 4.29.1 ([#1119](https://github.com/jayree/changelog/issues/1119)) ([c178212](https://github.com/jayree/changelog/commit/c1782127f892ac73f44e8d74f3aee7d2cdec5c83))
+* **deps:** bump fast-uri from 3.1.2 to 3.1.8 ([#1120](https://github.com/jayree/changelog/issues/1120)) ([2991ecd](https://github.com/jayree/changelog/commit/2991ecd748ae302d35e77de11af06b56aaa867a1))
+* **deps:** bump fs-extra from 11.3.6 to 11.4.1 ([#1122](https://github.com/jayree/changelog/issues/1122)) ([13e81ef](https://github.com/jayree/changelog/commit/13e81eff1b2a1b12239d7623d2d5cdbccbd8dde3))
+
 ## [1.2.39](https://github.com/jayree/changelog/compare/v1.2.38...v1.2.39) (2026-07-16)
 
 
