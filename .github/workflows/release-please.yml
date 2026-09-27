@@ -24,8 +24,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 'lts/*'
-          registry-url: https://registry.npmjs.org
-          always-auth: true
         if: ${{ steps.release.outputs.release_created }}
       - run: yarn
         if: ${{ steps.release.outputs.release_created }}
@@ -34,6 +32,4 @@ jobs:
       - run: yarn test
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
