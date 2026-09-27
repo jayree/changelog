@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.41](https://github.com/jayree/changelog/compare/v1.2.40...v1.2.41) (2026-09-27)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-node from 6 to 7 ([#1127](https://github.com/jayree/changelog/issues/1127)) ([8aa8dbf](https://github.com/jayree/changelog/commit/8aa8dbf7c4543ff649e44083acab7485c4df8c98))
+
 ## [1.2.40](https://github.com/jayree/changelog/compare/v1.2.39...v1.2.40) (2026-09-27)
 
 
