@@ -6,6 +6,7 @@
 ### Bug Fixes
 
 * **deps:** bump fs-extra from 11.4.0 to 11.4.1 ([#1114](https://github.com/jayree/changelog/issues/1114)) ([7ef87ff](https://github.com/jayree/changelog/commit/7ef87ffc8ac447679d88cf37179e887c2e98aa6e))
+* **deps:** bump marked from 18.0.13 to 18.0.14 ([#1115](https://github.com/jayree/changelog/issues/1115)) ([021616a](https://github.com/jayree/changelog/commit/021616a542bfe6b812e55426b692764a3df5631b))
 
 ## [1.2.46](https://github.com/jayree/changelog/compare/v1.2.45...v1.2.46) (2026-09-24)
 
