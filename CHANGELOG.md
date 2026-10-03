@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.43](https://github.com/jayree/changelog/compare/v1.2.42...v1.2.43) (2026-10-03)
+
+
+### Bug Fixes
+
+* **deps:** bump markdown-it from 14.3.0 to 14.3.2 ([#1139](https://github.com/jayree/changelog/issues/1139)) ([f82a453](https://github.com/jayree/changelog/commit/f82a45311b899721432b837ce58657c65c1e817d))
+
 ## [1.2.42](https://github.com/jayree/changelog/compare/v1.2.41...v1.2.42) (2026-09-28)
 
 
