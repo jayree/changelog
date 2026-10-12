@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.43](https://github.com/jayree/changelog/compare/v1.2.42...v1.2.43) (2026-10-08)
+
+
+### Bug Fixes
+
+* **deps:** bump markdown-it from 14.3.0 to 14.3.2 ([#1139](https://github.com/jayree/changelog/issues/1139)) ([f82a453](https://github.com/jayree/changelog/commit/f82a45311b899721432b837ce58657c65c1e817d))
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#1149](https://github.com/jayree/changelog/issues/1149)) ([f4a7f03](https://github.com/jayree/changelog/commit/f4a7f03dc88cd347d8ed43f36b07ad798113936d))
+
 ## [1.2.42](https://github.com/jayree/changelog/compare/v1.2.41...v1.2.42) (2026-09-28)
 
 
