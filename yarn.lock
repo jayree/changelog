@@ -575,10 +575,10 @@
   dependencies:
     "@salesforce/ts-types" "^3.0.0"
 
-"@salesforce/prettier-config@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@salesforce/prettier-config/-/prettier-config-0.0.4.tgz#fc84ea1585b2eb4bf156514911bac17b7f7e434c"
-  integrity sha512-GBjR7f/jv7rcSrTvNgbkWvOykXg/PZqL7TztylKwaogWdrCbypJE8qEfBy9nILkICrwmDbQApOC8TqoO3bQKSw==
+"@salesforce/prettier-config@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@salesforce/prettier-config/-/prettier-config-0.0.5.tgz#ed18e79a7096ecd48b5c3bf6c0313010a0270555"
+  integrity sha512-inVWAPcL0Ryv8Dfyvm3eYB6lUl8zgEEFHMsTgshcLL+Vx396UAcuU8MsGOSnDD7dQ7pBNjfRVojF+312E9Q7mw==
 
 "@salesforce/ts-types@^3.0.0", "@salesforce/ts-types@^3.2.0":
   version "3.2.0"
