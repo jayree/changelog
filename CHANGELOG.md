@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.44](https://github.com/jayree/changelog/compare/v1.2.43...v1.2.44) (2026-10-22)
+
+
+### Bug Fixes
+
+* **deps:** bump markdown-it from 14.3.2 to 14.3.3 ([#1156](https://github.com/jayree/changelog/issues/1156)) ([5b589e1](https://github.com/jayree/changelog/commit/5b589e13f061f660ce39b718f7825ce4b53203a9))
+* **deps:** bump marked from 18.0.14 to 18.1.0 ([#1154](https://github.com/jayree/changelog/issues/1154)) ([6e43182](https://github.com/jayree/changelog/commit/6e43182ec27476b054a50658a7609efb6e02e363))
+* **deps:** bump marked from 18.1.0 to 18.1.1 ([#1159](https://github.com/jayree/changelog/issues/1159)) ([410617b](https://github.com/jayree/changelog/commit/410617b9a71eb9654f58c9a0355a7e8f99e8bf22))
+
 ## [1.2.43](https://github.com/jayree/changelog/compare/v1.2.42...v1.2.43) (2026-10-08)
 
 
