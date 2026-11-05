@@ -18,7 +18,7 @@ describe('printChangeLog', () => {
   const pluginVersion = '1.0.0';
 
   const changeLog = `# Changelog\n\n## Version ${pluginVersion}\n- Some changes`;
-  const expectedResult = `\u001b[35m\u001b[4m\u001b[1m# Changelog for '${pluginName}':\u001b[22m\u001b[24m\u001b[39m\n\n\u001b[32m\u001b[1m## Version ${pluginVersion}\u001b[22m\u001b[39m\n\n    * \u001b[0mSome changes\u001b[0m\n\n`;
+  const expectedResult = `\u001b[35m\u001b[4m\u001b[1m# Changelog for '${pluginName}':\u001b[22m\u001b[24m\u001b[39m\n\n\u001b[32m\u001b[1m## Version ${pluginVersion}\u001b[22m\u001b[39m\n\n* \u001b[0mSome changes\u001b[0m\n\n`;
 
   let readJsonPackageStub: sinon.SinonStub;
 
