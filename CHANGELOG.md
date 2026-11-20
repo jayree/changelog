@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.47](https://github.com/jayree/changelog/compare/v1.2.46...v1.2.47) (2026-11-19)
+
+
+### Bug Fixes
+
+* **deps:** bump marked from 18.1.3 to 18.2.0 ([#1199](https://github.com/jayree/changelog/issues/1199)) ([e15ecf8](https://github.com/jayree/changelog/commit/e15ecf861ef51157a053a3bfa9a90a5714e9b129))
+
 ## [1.2.46](https://github.com/jayree/changelog/compare/v1.2.45...v1.2.46) (2026-11-12)
 
 
